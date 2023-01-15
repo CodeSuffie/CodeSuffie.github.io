@@ -1,0 +1,242 @@
+body {
+    background-color: rgb(232, 255, 255);
+}
+
+
+/* ------------------------ Separation border styling ------------------------ */
+
+hr {
+    border-style:solid;
+    width: 99%;
+    border-width: 1%;
+}
+
+
+/* ------------------------------- Font styling ------------------------------- */
+
+.bo {
+    font-weight: 600;
+}
+
+.it {
+    font-style: italic;
+}
+
+h1 {
+    color: rgb(16, 14, 106); 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size: xxx-large;
+    text-decoration-line: underline;
+    text-decoration-style: bold;
+    margin-left: 1vw;
+}
+
+h2 {
+    color: #2e2c97;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size: x-large;
+}
+
+h3 {
+    color: #4B56D2; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size: large;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: small;
+}
+
+h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+
+/* ------------------------------ Margin styling ------------------------------ */
+
+.margin1 {
+    margin-left: 1vw;
+}
+
+.margin2 {
+    margin-left: 2vw;
+}
+
+.margin4 {
+    margin-left: 4vw;
+}
+
+.margin6 {
+    margin-left: 6vw;
+}
+
+
+/* ------------------------------- Box styling ------------------------------- */
+.logo-box {
+    width: 95vw;
+    height: 18vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.login-box {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+}
+
+
+/* ----------------------------- Buttons styling ----------------------------- */
+
+.login {
+    height:40%;
+    width:100%;
+}
+
+.button {
+    width: 10vw;
+    max-width: 100px;
+    min-width: 55px;
+}
+
+
+/* ------------------------------ Image styling ------------------------------ */
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-size {
+    min-height: 400px;
+    min-width: 350px;
+}
+
+.frikandel-size {
+    min-height: 250px;
+    min-width: 350px;
+}
+
+.item-image {
+    width: 50vh;
+    height: 40vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+/* ------------------------------ Table styling ------------------------------ */
+
+/* Base table */
+th {
+    text-align: left;
+}
+
+tr {
+    max-height: 20%;
+}
+
+td {
+    text-align: center;
+}
+
+/* Item table */
+.item-table {
+    width: 80vw;
+    height: 20vw;
+    margin-left: 1vw;
+    vertical-align: top;
+}
+
+.item-td {
+    text-align: left;
+}
+
+/* Basket table -> item column */
+.basket-table {
+    width: 95vw;
+    margin-left: 1vw;
+    display: flex;
+    align-items: left;
+    border-collapse: collapse;
+}
+
+.basket-tr {
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+.basket-td {
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 15px;
+    word-break: keep-all;
+}
+
+/* Basket table -> amount column */
+.amount-td {
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 15px;
+    word-break: keep-all;
+}
+
+/* Basket table -> empty column */
+.empty-td {
+    border-top: hidden;
+    border-bottom: hidden;
+    padding: 15px;
+}
+
+
+/* ------------------------------- Menu styling ------------------------------- */
+
+.menu {
+    width: 100%;
+}
+
+.menuitem {
+    padding: 10px;
+    float: right;
+}
+
+.menuend {
+    clear: both;
+}
+
+
+/* ------------------------------ Link styling ------------------------------ */
+
+/* Menu link */
+a {
+    color: black;
+    text-decoration:  none;
+}
+
+/* General link */
+l {
+    color: blue;
+    text-decoration:  none;
+}
+
+
+/* ---------------------------- Search bar styling ---------------------------- */
+
+.search-bar {
+    width: 78vw;
+}

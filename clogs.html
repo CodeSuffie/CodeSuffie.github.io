@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Clogs</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="logo-box">
+      <img src="images/logo.png" alt="logo" onclick="location.href='index.html'"/>
+      <div class="login-box">
+        <input type="submit" value="Log In" class="login" onclick="location.href='log-in.html'">
+      </div>
+    </div>
+
+    <div class="menu">
+      <div class="menuitem"><a href="basket.html">Basket</a></div>
+      <div class="menuitem"><a href="add-item.html">Add item</a></div>
+      <div class="menuend"></div>
+    </div>
+
+    <h1>Clogs</h1>
+
+    <table class="item-table">
+      <tr>
+        <td>
+            <div class="item-image">
+              <img src="images/clogs.png" alt="clogs"/>
+            </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="item-td">
+          <h3><br/>€30 / pair</h3>
+          <h2>⭐⭐⭐⭐</h2>
+          <p>
+            It is hard to describe what clogs are, especially since there is a consensus
+            in the science community that they are ranked 3rd in the biggest mysteries ever, just after
+            the identity of Jack the Ripper and where the holy grail is located. What we do know is that they
+            are made from wood and happen to fit around adult feet, they are commonly found in the wild in
+            the Netherlands, but have long been domesticated and shipped out to many countries. Many people
+            visit the Netherlands to look at clogs in the wild, however this led to shops capturing clogs to set
+            out in front of their shops so tourists could take pictures with them. Please do not feed into this
+            predatory behaviour and make sure all clogs you visit in the Netherlands have a cage of at least
+            200 square feet and are fed regularly.
+          </p>
+          <form action="basket.html" method="post">
+            <h4>Which size would you like to order?<br/></h4>
+            <input name="size" type="radio" id="size37" value="37" class="margin2"/>
+            <label for="size37">Size 37</label><br/>
+            <input name="size" type="radio" id="size39" value="37" class="margin2"/>
+            <label for="size39">Size 39</label><br/><br/>
+            <table>
+              <td>
+                <h3>Select amount (of pairs):</h3>
+              </td>
+              <td>
+                <input type="number" name="amount" value="1" min="0" class="margin2">
+              </td>
+              <td>
+                <div>
+                  <input type="submit" value="Add to basket" class="margin2">
+                </div>
+              </td>
+            </table>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Appleflap</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="logo-box">
+      <img src="images/logo.png" alt="logo" onclick="location.href='index.html'"/>
+      <div class="login-box">
+        <input type="submit" value="Log In" class="login" onclick="location.href='log-in.html'">
+      </div>
+    </div>
+
+    <div class="menu">
+      <div class="menuitem"><a href="basket.html">Basket</a></div>
+      <div class="menuitem"><a href="add-item.html">Add item</a></div>
+      <div class="menuend"></div>
+    </div>
+
+    <h1>Appleflap</h1>
+
+    <table class="item-table">
+      <tr>
+        <td>
+          <div class="item-image">
+            <img src="images/appleflap.png" alt="appleflap" class="item-size"/>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="item-td">
+          <h3><br/>€2 / appleflap</h3>
+          <h2>⭐⭐⭐⭐⭐</h2>
+          <p>
+            Appleflap is the fuel of every self-respecting hollander.
+            It comes in many unique sizes: a lot of appleflap, a normal amount of appleflap, too little appleflap and so on.
+            It also comes in a lot of shapes, no-one knows why they are triangular, that is why people who want
+            to buy appleflap for regular consumption buy it in medium-sized triangles.
+            Many people argue that appleflap is the 5th best invention, ranking just after the
+            wheel, the printing press, the computer and cheese.
+          </p>
+          <form action="basket.html" method="post">
+            <table>
+              <td>
+                <h3>Select amount:</h3>
+              </td>
+              <td>
+                <input type="number" name="amount" value="1" min="0" class="margin2">
+              </td>
+              <td>
+                <div>
+                  <input type="submit" value="Add to basket" class="margin2">
+                </div>
+              </td>
+            </table>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

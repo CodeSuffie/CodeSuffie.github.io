@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>basket</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="logo-box">
+            <img src="images/logo.png" alt="logo" onclick="location.href='index.html'"/>
+            <div class="login-box">
+                <input type="submit" value="Log In" class="login" onclick="location.href='log-in.html'">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menuitem"><a href="add-item.html">Add item</a></div>
+            <div class="menuend"></div>
+        </div>
+
+        <h1>Your Basket</h1>
+        <table class="basket-table">
+            <tr class="basket-tr">
+                <td class="basket-td">
+                    <a href="cheese.html">Cheese Gouda</a>
+                </td>
+                <td class="basket-td">€10 / 500g</td>
+                <td class="empty-td"></td>
+                <td class="amount-td">
+                    <input type="number" name="item1" value="1" min="0">
+                </td>
+            </tr>
+            <tr class="basket-tr">
+                <td class="basket-td">
+                    <a href="cheese.html">Cheese Emmental</a>
+                </td>
+                <td class="basket-td">€10 / 500g</td>
+                <td class="empty-td"></td>
+                <td class="amount-td">
+                    <input type="number" name="item2" value="2" min="0">
+                </td>
+            </tr>
+            <tr class="basket-tr">
+                <td class="basket-td">
+                    <a href="clogs.html">Clogs size 37</a>
+                </td>
+                <td class="basket-td">€30 / pair</td>
+                <td class="empty-td"></td>
+                <td class="amount-td">
+                    <input type="number" name="item3" value="1" min="0">
+                </td>
+            </tr>
+            <tr class="basket-tr">
+                <td class="basket-td">
+                    <a href="clogs.html">Clogs size 39</a>
+                </td>
+                <td class="basket-td">€30 / pair</td>
+                <td class="empty-td"></td>
+                <td class="amount-td">
+                    <input type="number" name="item4" value="3" min="0">
+                </td>
+            </tr>
+            <tr class="basket-tr">
+                <td class="basket-td">
+                    <a href="appleflap.html">Appleflap</a>
+                </td>
+                <td class="basket-td">€2 / appleflap</td>
+                <td class="empty-td"></td>
+                <td class="amount-td">
+                    <input type="number" name="item5" value="1" min="0">
+                </td>
+            </tr>
+        </table>
+
+        <br/>
+
+        <input type="submit" value="Order" onclick="location.href='index.html'" class="margin1">
+
+        <br/><br/><br/>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cheese</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="logo-box">
+            <img src="images/logo.png" alt="logo" onclick="location.href='index.html'"/>
+            <div class="login-box">
+                <input type="submit" value="Log In" class="login" onclick="location.href='log-in.html'">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menuitem"><a href="basket.html">Basket</a></div>
+            <div class="menuitem"><a href="add-item.html">Add item</a></div>
+            <div class="menuend"></div>
+        </div>
+
+        <h1>Cheese</h1>
+
+        <table class="item-table">
+            <tr>
+                <td>
+                    <div class="item-image">
+                        <img src="images/cheese.png" alt="cheese" class="item-size"/>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="item-td">
+                    <h3><br/>€10 / 500g</h3>
+                    <h2>⭐⭐⭐⭐⭐</h2>
+                    <p>
+                        Cheese is the fuel of every self-respecting hollander.
+                        It comes in many unique sizes: a lot of cheese, a normal amount of cheese, too little cheese and so on.
+                        It also comes in a lot of shapes, no-one knows why they are round, that is why people who want
+                        to buy cheese for regular consumption buy it in small cubes. Unless they plan to use it on bread, then
+                        they buy slices. Many people argue that cheese is the 4th best invention, ranking just after the
+                        wheel, the printing press and the computer.
+                    </p>
+                    <form action="basket.html" method="post">
+                        <h4>Which type of cheese would you like to order?<br/></h4>
+                        <input name="type" type="radio" id="gouda" value="gouda" class="margin2"/>
+                        <label for="Gouda">Gouda</label><br/>
+                        <input name="type" type="radio" id="emmental" value="emmental" class="margin2"/>
+                        <label for="Emmental">Emmental</label><br/><br/>
+                        <table>
+                            <td>
+                                <h3>Select amount:</h3>
+                            </td>
+                            <td>
+                                <input type="number" name="amount" value="1" min="0" class="margin2">
+                            </td>
+                            <td>
+                                <div>
+                                    <input type="submit" value="Add to basket" class="margin2">
+                                </div>
+                            </td>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

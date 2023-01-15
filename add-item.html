@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>add item</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="logo-box">
+            <img src="images/logo.png" alt="logo" onclick="location.href='index.html'" />
+        </div>
+
+        <div class="menu">
+            <div class="menuitem"><a href="basket.html">Basket</a></div>
+            <div class="menuend"></div>
+        </div>
+
+        <h1>Add Item</h1>
+
+        <form action="index.html" method="post">
+
+            <h3 class="margin2">Enter the name of the item:<br/><br/>
+            <input type="text" name="name"><br/><br/>
+            </h3>
+
+            <h3 class="margin2">Enter the price of the item:<br/><br/> 
+            <input type="number" name="price" min="0"/><br/><br/> 
+            </h3>
+
+            <h3 class="margin2">Enter the specifics of the item:</h3>
+            <textarea rows="10" cols="30" name="specs" class="margin2"></textarea>
+
+            <h3 class="margin2">Enter the quantity you offer:<br/><br/>
+            <input type="number" name="quantity" min="1"><br/><br/>
+            </h3>
+
+            <h3 class="margin2">Add an image for the item:<br/><br/>
+            <input type="file" name="image" accept="image/*"><br/><br/>
+            </h3>
+
+            <input type="submit" value="Add Item"  class="margin2" />
+            <br/><br/><br/>
+        </form>
+    </body>
+</html>

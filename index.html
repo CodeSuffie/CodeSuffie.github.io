@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>home</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="logo-box">
+            <img src="images/logo.png" alt="logo" onclick="location.href='index.html'"/>
+            <div class="login-box">
+                <input type="submit" value="Log In" class="login" onclick="location.href='log-in.html'">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menuitem"><a href="basket.html">Basket</a></div>
+            <div class="menuitem"><a href="add-item.html">Add item</a></div>
+            <div class="menuend"></div>
+        </div>
+
+        <form action="search.html" method="post" class="margin1">
+            <input type="text" name="search" class="search-bar">
+            <input type="submit" value="Search" class="button">
+        </form>
+
+        <br/>
+
+        <h1>Highlights</h1>
+
+        <table class="item-table">
+            <tr>
+                <th>
+                    <h2>Cheese</h2>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="item-image">
+                        <img src="images/cheese.png" alt="cheese" onclick="location.href='cheese.html'"/>
+                    </div>
+                </td>
+                <td>
+                    <h3>€10+</h3><br/>
+                    <h2>⭐⭐⭐⭐⭐</h2>
+                </td>
+            </tr>
+        </table>
+
+        <br/>
+
+        <table class="item-table">
+            <tr>
+                <th>
+                    <h2>Clogs</h2>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="item-image">
+                        <img src="images/clogs.png" alt="clogs" onclick="location.href='clogs.html'"/>
+                    </div>
+                </td>
+                <td>
+                    <h3>€30+</h3><br/>
+                    <h2>⭐⭐⭐⭐</h2>
+                </td>
+            </tr>
+        </table>
+
+        <br/>
+
+        <table class="item-table">
+            <tr>
+                <th>
+                    <h2>Appleflap</h2>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="item-image">
+                        <img src="images/appleflap.png" alt="appleflap" onclick="location.href='appleflap.html'"/>
+                    </div>
+                </td>
+                <td>
+                    <h3>€2+</h3><br/>
+                    <h2>⭐⭐⭐⭐⭐</h2>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

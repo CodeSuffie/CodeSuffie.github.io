@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Karvan</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="logo-box">
+            <img src="images/logo.png" alt="logo" onclick="location.href='index.html'"/>
+            <div class="login-box">
+                <input type="submit" value="Log In" class="login" onclick="location.href='log-in.html'">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menuitem"><a href="basket.html">Basket</a></div>
+            <div class="menuitem"><a href="add-item.html">Add item</a></div>
+            <div class="menuend"></div>
+        </div>
+
+        <h1>Karvan</h1>
+
+        <table class="item-table">
+            <tr>
+                <td>
+                    <div class="item-image">
+                        <img src="images/karvan.png" alt="karvan" class="item-size"/>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="item-td">
+                    <h3><br/>€4 / bottle</h3>
+                    <h2>⭐⭐</h2>
+                    <p>
+                        Karvan is a type of syrup which you mix with water to get a flavored drink.
+                        This makes drinks affordable (since all you need is water), yet tasteful. Why pay
+                        big soda to mix water with a syrup for you if you can do it yourself at home!
+                        Limited time offer: buy 1, get 1, not one extra just pay for one and you will receive one.
+                    </p>
+                    <form action="basket.html" method="post">
+                        <table>
+                            <td>
+                                <h3>Select amount:</h3>
+                            </td>
+                            <td>
+                                <input type="number" name="amount" value="1" min="0" class="margin2">
+                            </td>
+                            <td>
+                                <div>
+                                    <input type="submit" value="Add to basket" class="margin2">
+                                </div>
+                            </td>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

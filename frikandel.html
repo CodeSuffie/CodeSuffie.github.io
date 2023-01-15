@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Frikandel</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="logo-box">
+      <img src="images/logo.png" alt="logo" onclick="location.href='index.html'"/>
+      <div class="login-box">
+        <input type="submit" value="Log In" class="login" onclick="location.href='log-in.html'">
+      </div>
+    </div>
+
+    <div class="menu">
+      <div class="menuitem"><a href="basket.html">Basket</a></div>
+      <div class="menuitem"><a href="add-item.html">Add item</a></div>
+      <div class="menuend"></div>
+    </div>
+
+    <h1>Frikandel</h1>
+
+    <table class="item-table">
+      <tr>
+        <td>
+          <div class="item-image">
+            <img src="images/frikandel.png" alt="frikandel" class="frikandel-size"/>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="item-td">
+          <h3><br/>€2 / bun</h3>
+          <h2>⭐⭐⭐</h2>
+          <p>
+            Frikandel buns combine the taste of mixed meats and regular bread together.
+            Most commonly bought in walls in the Netherlands, but now also available for
+            online purchase <l onclick="location.href='frikandel.html'">here.</l> If you live
+            close they might even still be a little warm after being shipped trough the dutch postal services.
+          </p>
+          <form action="basket.html" method="post">
+            <table>
+              <td>
+                <h3>Select amount:</h3>
+              </td>
+              <td>
+                <input type="number" name="amount" value="1" min="0" class="margin2">
+              </td>
+              <td>
+                <div>
+                  <input type="submit" value="Add to basket" class="margin2">
+                </div>
+              </td>
+            </table>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
